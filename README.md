@@ -1,6 +1,6 @@
 # AWS Infrastructure Deployment with Terraform :computer:
 
-## This comprehensive project showcases the power of Infrastructure as Code (IaC) through Terraform, focusing on AWS deployment.
+## This comprehensive project showcases the power of Infrastructure as Code (IaC) through Terraform, focusing on AWS.
 
 #### :pushpin: Key Features:
 
