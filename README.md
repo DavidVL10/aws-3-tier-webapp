@@ -117,7 +117,7 @@ nvm install 16
 nvm use 16
 npm install -g pm2
 ```
-6.4  Download the code from your S3 Buckets:
+6.4  Download the code from your S3 Bucket:
 ```
 cd ~/
 aws s3 cp s3://webapp-project-ded089ac429f/app-tier/ app-tier --recursive
