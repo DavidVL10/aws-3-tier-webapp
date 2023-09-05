@@ -166,7 +166,7 @@ terraform apply -auto-approve
 terraform apply -auto-approve
 ```
 
-:white_check_mark: Congratulations you finished your WebApp, copy in your browser the DNS Name of your public-alb-webtier to access your application :white_check_mark:
+:white_check_mark: Congratulations you've finished your WebApp, copy in your browser the DNS Name of your public-alb-webtier to access your application :white_check_mark:
 
 :triangular_flag_on_post:
 **Don't forget to destroy your resources on AWS to avoid being charged**
