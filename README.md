@@ -29,7 +29,7 @@
 - S3 Bucket:
 
   - Create a S3 Bucket :file_folder:
-  - Upload an object to our S3 Bucket
+  - Upload an object to your S3 Bucket
 
 - Create an EC2 Instance:
     
