@@ -37,12 +37,12 @@
   - Use a Terraform Data Block to look up for a specific AMI :mag_right:
   - Create an EC2 Instance
   - Generate a Key Pair for our Public Web Server :key:
-  - Connect to the EC2 intance using Session Manager and SSH
+  - Connect to the EC2 Instance using Session Manager and SSH
   - Copy objects from S3
     
 - Batch Script
   
-  - Create a batch script to configure our EC2 instance :bookmark_tabs:
+  - Create a batch script to configure your EC2 instance :bookmark_tabs:
     
 - Load Balancers and Auto Scaling Groups:
   
@@ -59,7 +59,7 @@ In this architecture, a public-facing Application Load Balancer forwards client 
 
 ## How to deploy this 3-Tier WebApp project on Terraform :bulb:
 
-1. In the file **terraform.tfvars** change the path where you save the folder application-code
+1. In the file **terraform.tfvars** change the path where you save the folder **application-code**
 ```
 folder_path = "[Your Path]"
 ```   
@@ -128,7 +128,7 @@ On Terraform
 ```
 terraform apply -replace="module.db-config.aws_s3_object.dbconfig_file"
 ```
-Private AppTier EC2 Server instance
+Private AppTier EC2 Server Instance
 ```
 cd app-tier/
 aws s3 cp s3://**BUCKET_NAME**/app-tier/DbConfig.js DbConfig.js 
