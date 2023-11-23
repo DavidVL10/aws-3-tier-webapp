@@ -88,7 +88,7 @@ terraform init
 terraform apply -auto-approve
 ```
 6. Use the AWS Management Console to connect to the Private AppTier EC2 Server Instance.
-**For the step 6 you must use all the commands of the userer_data.sh that is created in the root folder, this is just an example**
+**For the step 6 you must use all the commands of the user_data.sh that is created in the root folder, this is just an example**
 
 6.1 When you first connect to your instance like this, you will be logged in as ssm-user which is the default user. Switch to ec2-user by executing the following command in the browser terminal:
 ```
